@@ -1,0 +1,26 @@
+{
+  "qInfo": {
+    "qId": "PkDuFv",
+    "qType": "measure"
+  },
+  "qMeasure": {
+    "qLabel": "Flujo Programado (MW) - PMP",
+    "qDef": "SUM(\r\n\t$(=\n    \t IF(GetSelectedCount(Linea)>0 AND GetSelectedCount(Fecha)=0 AND GetSelectedCount(Fecha_Hora)=0 AND GetSelectedCount(Mes)=0 AND GetSelectedCount(Año)=0 AND GetSelectedCount(Fecha_Efectiva)=0 AND GetSelectedCount(fecha_version_indhor)=0 AND GetSelectedCount(fecha_version)=0 AND GetSelectedCount(fecha_hora_version)=0,\n        \tvFiltrosPMPSinLinea,\n    \t\tIF(GetSelectedCount(Fecha)=0 AND GetSelectedCount(Linea)=0 AND GetSelectedCount(Mes)=0 AND GetSelectedCount(Año)=0 AND GetSelectedCount(Fecha_Efectiva)=0 AND GetSelectedCount(fecha_version_indhor)=0 AND GetSelectedCount(fecha_version)=0 AND GetSelectedCount(fecha_hora_version)=0,\n                vFiltrosPMP,\n\t\t\t\tvSinFiltrosPMP     \n    \t\t)\n         )\n         \n    )\nflujo_pot)",
+    "qGrouping": "N",
+    "qExpressions": [],
+    "qActiveExpression": 0,
+    "qLabelExpression": "='Flujo Programado [MW] - PMP'",
+    "qNumFormat": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "numFormatFromTemplate": true,
+    "coloring": {}
+  },
+  "qMetaDef": {
+    "title": "Flujo Programado (MW) - PMP",
+    "description": "",
+    "tags": []
+  }
+}

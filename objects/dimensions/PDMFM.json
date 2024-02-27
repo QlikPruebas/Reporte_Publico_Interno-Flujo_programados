@@ -1,0 +1,26 @@
+{
+  "qInfo": {
+    "qId": "PDMFM",
+    "qType": "dimension"
+  },
+  "qDim": {
+    "qGrouping": "N",
+    "qFieldDefs": [
+      "Año"
+    ],
+    "qFieldLabels": [
+      "Año"
+    ],
+    "qLabelExpression": "='Año'",
+    "title": "Año",
+    "coloring": {
+      "changeHash": "0.1100847931290021",
+      "colorMapRef": "PDMFM"
+    }
+  },
+  "qMetaDef": {
+    "title": "Año",
+    "description": "",
+    "tags": []
+  }
+}

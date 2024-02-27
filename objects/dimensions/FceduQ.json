@@ -1,0 +1,24 @@
+{
+  "qInfo": {
+    "qId": "FceduQ",
+    "qType": "dimension"
+  },
+  "qDim": {
+    "qGrouping": "N",
+    "qFieldDefs": [
+      "fecha_version"
+    ],
+    "qFieldLabels": [
+      "fecha_version"
+    ],
+    "title": "fecha_version",
+    "coloring": {
+      "changeHash": "0.426322447067488"
+    }
+  },
+  "qMetaDef": {
+    "title": "fecha_version",
+    "description": "",
+    "tags": []
+  }
+}

@@ -1,0 +1,293 @@
+[
+  {
+    "qName": "%KEY_BLOQUE_FUENTE_VERSION",
+    "qTags": [
+      "$ascii",
+      "$text",
+      "$key"
+    ],
+    "qSrcTables": [
+      "Flujos_Programados",
+      "CALENDARIO"
+    ]
+  },
+  {
+    "qName": "Año",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "CALENDARIO"
+    ]
+  },
+  {
+    "qName": "AñoMesNum",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "CALENDARIO"
+    ]
+  },
+  {
+    "qName": "Dia",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "CALENDARIO"
+    ]
+  },
+  {
+    "qName": "Fecha",
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$timestamp",
+      "$date"
+    ],
+    "qSrcTables": [
+      "CALENDARIO"
+    ]
+  },
+  {
+    "qName": "Fecha_Efectiva",
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$timestamp",
+      "$date"
+    ],
+    "qSrcTables": [
+      "CALENDARIO"
+    ]
+  },
+  {
+    "qName": "Fecha_Hora",
+    "qTags": [
+      "$numeric",
+      "$timestamp"
+    ],
+    "qSrcTables": [
+      "CALENDARIO"
+    ]
+  },
+  {
+    "qName": "HidroFiltro",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Flujos_Programados"
+    ]
+  },
+  {
+    "qName": "Hora",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "CALENDARIO"
+    ]
+  },
+  {
+    "qName": "Linea",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Flujos_Programados"
+    ]
+  },
+  {
+    "qName": "Mes",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "CALENDARIO"
+    ]
+  },
+  {
+    "qName": "MesAño",
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$timestamp",
+      "$date"
+    ],
+    "qSrcTables": [
+      "CALENDARIO"
+    ]
+  },
+  {
+    "qName": "Semana",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "CALENDARIO"
+    ]
+  },
+  {
+    "qName": "barra_a",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Flujos_Programados"
+    ]
+  },
+  {
+    "qName": "barra_b",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Flujos_Programados"
+    ]
+  },
+  {
+    "qName": "bloque",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Flujos_Programados"
+    ]
+  },
+  {
+    "qName": "etapa",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Flujos_Programados"
+    ]
+  },
+  {
+    "qName": "fecha_hora_version",
+    "qTags": [
+      "$numeric",
+      "$timestamp"
+    ],
+    "qSrcTables": [
+      "Flujos_Programados"
+    ]
+  },
+  {
+    "qName": "fecha_version",
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$timestamp",
+      "$date"
+    ],
+    "qSrcTables": [
+      "Flujos_Programados"
+    ]
+  },
+  {
+    "qName": "fecha_version_indhor",
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$timestamp",
+      "$date"
+    ],
+    "qSrcTables": [
+      "CALENDARIO"
+    ]
+  },
+  {
+    "qName": "flujo_pot",
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Flujos_Programados"
+    ]
+  },
+  {
+    "qName": "fuente",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Flujos_Programados"
+    ]
+  },
+  {
+    "qName": "fuente_indhor",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "CALENDARIO"
+    ]
+  },
+  {
+    "qName": "hidro",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Flujos_Programados"
+    ]
+  },
+  {
+    "qName": "intervalo",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Flujos_Programados"
+    ]
+  },
+  {
+    "qName": "numero_version",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Flujos_Programados"
+    ]
+  },
+  {
+    "qName": "numero_version_indhor",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "CALENDARIO"
+    ]
+  },
+  {
+    "qName": "units",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Flujos_Programados"
+    ]
+  }
+]

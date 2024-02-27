@@ -1,0 +1,26 @@
+{
+  "qInfo": {
+    "qId": "PrakkL",
+    "qType": "dimension"
+  },
+  "qDim": {
+    "qGrouping": "N",
+    "qFieldDefs": [
+      "Fecha_Efectiva"
+    ],
+    "qFieldLabels": [
+      "Fecha"
+    ],
+    "qLabelExpression": "='Fecha'",
+    "title": "Fecha",
+    "coloring": {
+      "changeHash": "0.10215236301758934",
+      "colorMapRef": "PrakkL"
+    }
+  },
+  "qMetaDef": {
+    "title": "Fecha",
+    "description": "",
+    "tags": []
+  }
+}

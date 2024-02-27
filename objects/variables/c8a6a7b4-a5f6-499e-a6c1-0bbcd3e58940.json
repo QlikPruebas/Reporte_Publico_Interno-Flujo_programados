@@ -1,0 +1,15 @@
+{
+  "qInfo": {
+    "qId": "c8a6a7b4-a5f6-499e-a6c1-0bbcd3e58940",
+    "qType": "variable"
+  },
+  "qMetaDef": {},
+  "qName": "vSinFiltrosPLP",
+  "qNumberPresentation": {
+    "qType": "U",
+    "qnDec": 10,
+    "qUseThou": 0
+  },
+  "qDefinition": "{<fuente={'PLP'},HidroFiltro={'MEDIA'},fecha_hora_version>}",
+  "tags": []
+}

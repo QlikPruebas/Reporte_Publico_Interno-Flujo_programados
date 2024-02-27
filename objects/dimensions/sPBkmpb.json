@@ -1,0 +1,24 @@
+{
+  "qInfo": {
+    "qId": "sPBkmpb",
+    "qType": "dimension"
+  },
+  "qDim": {
+    "qGrouping": "N",
+    "qFieldDefs": [
+      "Mes"
+    ],
+    "qFieldLabels": [
+      "Mes"
+    ],
+    "title": "Mes",
+    "coloring": {
+      "changeHash": "0.7566661713794718"
+    }
+  },
+  "qMetaDef": {
+    "title": "Mes",
+    "description": "",
+    "tags": []
+  }
+}

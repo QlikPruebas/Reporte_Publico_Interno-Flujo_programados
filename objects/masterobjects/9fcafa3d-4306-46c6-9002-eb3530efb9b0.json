@@ -1,0 +1,327 @@
+{
+  "qProperty": {
+    "qInfo": {
+      "qId": "9fcafa3d-4306-46c6-9002-eb3530efb9b0",
+      "qType": "masterobject"
+    },
+    "qMetaDef": {
+      "title": "PCP",
+      "description": "",
+      "tags": []
+    },
+    "qHyperCubeDef": {
+      "qDimensions": [
+        {
+          "qDef": {
+            "qGrouping": "N",
+            "qFieldDefs": [
+              "Fecha_Hora"
+            ],
+            "qFieldLabels": [
+              ""
+            ],
+            "qSortCriterias": [
+              {
+                "qSortByNumeric": 1,
+                "qSortByAscii": 1,
+                "qSortByLoadOrder": 1,
+                "qExpression": {}
+              }
+            ],
+            "qNumberPresentations": [],
+            "qActiveField": 0,
+            "autoSort": true,
+            "cId": "BEzmbp",
+            "othersLabel": "Others"
+          },
+          "qOtherTotalSpec": {
+            "qOtherMode": "OTHER_OFF",
+            "qOtherCounted": {
+              "qv": "10"
+            },
+            "qOtherLimit": {
+              "qv": "0"
+            },
+            "qOtherLimitMode": "OTHER_GE_LIMIT",
+            "qForceBadValueKeeping": true,
+            "qApplyEvenWhenPossiblyWrongResult": true,
+            "qOtherSortMode": "OTHER_SORT_DESCENDING",
+            "qTotalMode": "TOTAL_OFF",
+            "qReferencedExpression": {}
+          },
+          "qOtherLabel": {
+            "qv": "Others"
+          },
+          "qTotalLabel": {},
+          "qCalcCond": {},
+          "qAttributeExpressions": [],
+          "qAttributeDimensions": [],
+          "qCalcCondition": {
+            "qCond": {},
+            "qMsg": {}
+          }
+        },
+        {
+          "qDef": {
+            "qGrouping": "N",
+            "qFieldDefs": [
+              "Linea"
+            ],
+            "qFieldLabels": [
+              ""
+            ],
+            "qSortCriterias": [
+              {
+                "qSortByNumeric": 1,
+                "qSortByAscii": 1,
+                "qSortByLoadOrder": 1,
+                "qExpression": {}
+              }
+            ],
+            "qNumberPresentations": [],
+            "qActiveField": 0,
+            "autoSort": true,
+            "cId": "CStDXd",
+            "othersLabel": "Others"
+          },
+          "qOtherTotalSpec": {
+            "qOtherMode": "OTHER_OFF",
+            "qOtherCounted": {
+              "qv": "10"
+            },
+            "qOtherLimit": {
+              "qv": "0"
+            },
+            "qOtherLimitMode": "OTHER_GE_LIMIT",
+            "qForceBadValueKeeping": true,
+            "qApplyEvenWhenPossiblyWrongResult": true,
+            "qOtherSortMode": "OTHER_SORT_DESCENDING",
+            "qTotalMode": "TOTAL_OFF",
+            "qReferencedExpression": {}
+          },
+          "qOtherLabel": {
+            "qv": "Others"
+          },
+          "qTotalLabel": {},
+          "qCalcCond": {},
+          "qAttributeExpressions": [],
+          "qAttributeDimensions": [],
+          "qCalcCondition": {
+            "qCond": {},
+            "qMsg": {}
+          }
+        }
+      ],
+      "qMeasures": [
+        {
+          "qLibraryId": "yPpGz",
+          "qDef": {
+            "qLabel": "Flujo Programado (MW)",
+            "qTags": [],
+            "qGrouping": "N",
+            "qAccumulate": 0,
+            "qActiveExpression": 0,
+            "qExpressions": [],
+            "autoSort": true,
+            "cId": "jwXQKxu",
+            "numFormatFromTemplate": true,
+            "quarantine": {
+              "qNumFormat": {
+                "qType": "U",
+                "qnDec": 10,
+                "qUseThou": 0,
+                "qFmt": "",
+                "qDec": "",
+                "qThou": ""
+              },
+              "isCustomFormatted": false
+            }
+          },
+          "qSortBy": {
+            "qSortByNumeric": -1,
+            "qSortByLoadOrder": 1,
+            "qExpression": {}
+          },
+          "qAttributeExpressions": [],
+          "qAttributeDimensions": [],
+          "qCalcCond": {},
+          "qCalcCondition": {
+            "qCond": {},
+            "qMsg": {}
+          },
+          "qTrendLines": [],
+          "qMiniChartDef": {
+            "qSortBy": {
+              "qExpression": {}
+            },
+            "qOtherTotalSpec": {
+              "qOtherMode": "OTHER_OFF",
+              "qOtherCounted": {},
+              "qOtherLimit": {},
+              "qOtherLimitMode": "OTHER_GT_LIMIT",
+              "qForceBadValueKeeping": true,
+              "qApplyEvenWhenPossiblyWrongResult": true,
+              "qOtherSortMode": "OTHER_SORT_DESCENDING",
+              "qTotalMode": "TOTAL_OFF",
+              "qReferencedExpression": {}
+            },
+            "qMaxNumberPoints": -1,
+            "qAttributeExpressions": []
+          }
+        }
+      ],
+      "qInterColumnSortOrder": [
+        0,
+        2,
+        1
+      ],
+      "qSuppressMissing": true,
+      "qInitialDataFetch": [
+        {
+          "qLeft": 0,
+          "qTop": 0,
+          "qWidth": 17,
+          "qHeight": 500
+        }
+      ],
+      "qReductionMode": "N",
+      "qMode": "K",
+      "qPseudoDimPos": -1,
+      "qNoOfLeftDims": -1,
+      "qAlwaysFullyExpanded": true,
+      "qMaxStackedCells": 5000,
+      "qCalcCond": {
+        "qv": "IF($(vMultiplesVersiones),\r\n\t0,\n\tIF(LEN([Flujo Programado (MW) - PCP])>0 AND [Flujo Programado (MW) - PCP]>0,1,0)  //1 Es sin error. 0 Es que se cumple el error. \n)"
+      },
+      "qTitle": {},
+      "qCalcCondition": {
+        "qCond": {
+          "qv": "IF($(vMultiplesVersiones),\r\n\t0,\n\tIF(LEN([Flujo Programado (MW) - PCP])>0 AND [Flujo Programado (MW) - PCP]>0,1,0)  //1 Es sin error. 0 Es que se cumple el error. \n)"
+        },
+        "qMsg": {
+          "qv": "=IF($(vMultiplesVersiones),\r\n\tvMensajeErrorVersiones,\t\n\tvMensajeError\n)"
+        }
+      },
+      "qColumnOrder": [],
+      "qExpansionState": [],
+      "qDynamicScript": [],
+      "qLayoutExclude": {
+        "qHyperCubeDef": {
+          "qDimensions": [],
+          "qMeasures": [],
+          "qInterColumnSortOrder": [],
+          "qInitialDataFetch": [],
+          "qReductionMode": "N",
+          "qMode": "S",
+          "qPseudoDimPos": -1,
+          "qNoOfLeftDims": -1,
+          "qMaxStackedCells": 5000,
+          "qCalcCond": {},
+          "qTitle": {},
+          "qCalcCondition": {
+            "qCond": {},
+            "qMsg": {}
+          },
+          "qColumnOrder": [],
+          "qExpansionState": [],
+          "qDynamicScript": []
+        }
+      },
+      "customErrorMessage": {
+        "calcCond": ""
+      }
+    },
+    "refLine": {
+      "refLines": [],
+      "dimRefLines": []
+    },
+    "showTitles": true,
+    "title": "Flujos Programados - PCP",
+    "subtitle": "",
+    "footnote": "",
+    "disableNavMenu": false,
+    "showDetails": false,
+    "showDisclaimer": true,
+    "components": [],
+    "lineType": "line",
+    "stackedArea": false,
+    "separateStacking": true,
+    "orientation": "horizontal",
+    "scrollbar": "miniChart",
+    "scrollStartPos": 0,
+    "nullMode": "gap",
+    "dataPoint": {
+      "show": false,
+      "showLabels": false
+    },
+    "gridLine": {
+      "auto": true,
+      "spacing": 2
+    },
+    "color": {
+      "auto": true,
+      "mode": "primary",
+      "formatting": {
+        "numFormatFromTemplate": true
+      },
+      "useBaseColors": "off",
+      "paletteColor": {
+        "index": 6
+      },
+      "useDimColVal": true,
+      "useMeasureGradient": true,
+      "persistent": true,
+      "expressionIsColor": true,
+      "expressionLabel": "",
+      "measureScheme": "sg",
+      "reverseScheme": false,
+      "dimensionScheme": "12",
+      "autoMinMax": true,
+      "measureMin": 0,
+      "measureMax": 10
+    },
+    "legend": {
+      "show": true,
+      "dock": "bottom",
+      "showTitle": true
+    },
+    "dimensionAxis": {
+      "continuousAuto": true,
+      "show": "all",
+      "label": "auto",
+      "dock": "near",
+      "axisDisplayMode": "auto",
+      "maxVisibleItems": 10
+    },
+    "preferContinuousAxis": true,
+    "measureAxis": {
+      "show": "all",
+      "dock": "near",
+      "spacing": 0.5,
+      "autoMinMax": true,
+      "minMax": "min",
+      "min": 0,
+      "max": 10,
+      "logarithmic": false
+    },
+    "tooltip": {
+      "auto": true,
+      "hideBasic": false,
+      "title": "",
+      "description": ""
+    },
+    "visualization": "linechart",
+    "version": "1.5.0",
+    "showMiniChartForContinuousAxis": true,
+    "qLayoutExclude": {
+      "quarantine": {}
+    },
+    "labelExpression": {
+      "qStringExpression": {
+        "qExpr": "'FLUJOS_PCP'"
+      }
+    },
+    "masterVersion": 0.96
+  },
+  "qChildren": []
+}

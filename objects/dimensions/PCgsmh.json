@@ -1,0 +1,24 @@
+{
+  "qInfo": {
+    "qId": "PCgsmh",
+    "qType": "dimension"
+  },
+  "qDim": {
+    "qGrouping": "N",
+    "qFieldDefs": [
+      "Semana"
+    ],
+    "qFieldLabels": [
+      "Semana"
+    ],
+    "title": "Semana",
+    "coloring": {
+      "changeHash": "0.15682783301583947"
+    }
+  },
+  "qMetaDef": {
+    "title": "Semana",
+    "description": "",
+    "tags": []
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "qInfo": {
+    "qId": "aa4f602f-f608-4d3d-b5fb-c38cd1685a7b",
+    "qType": "variable"
+  },
+  "qMetaDef": {},
+  "qName": "vFiltrosPMPSinLinea",
+  "qNumberPresentation": {
+    "qType": "U",
+    "qnDec": 10,
+    "qUseThou": 0
+  },
+  "qDefinition": "{<fuente = {'PMP'},HidroFiltro={'MEDIA'},fecha_hora_version, AñoMesNum= {\"<$(=MIN({<fuente = {'PMP'},HidroFiltro={'MEDIA'},fecha_hora_version>}AñoMesNum)+1)\"},fecha_version= {\"$(=MAX({<fuente = {'PMP'},HidroFiltro={'MEDIA'},fecha_hora_version>}fecha_version))\"}>}",
+  "tags": []
+}

@@ -1,0 +1,15 @@
+{
+  "qInfo": {
+    "qId": "c93116b7-071c-4ee7-bc78-dc383298c566",
+    "qType": "variable"
+  },
+  "qMetaDef": {},
+  "qName": "vFiltrosPCP",
+  "qNumberPresentation": {
+    "qType": "U",
+    "qnDec": 10,
+    "qUseThou": 0
+  },
+  "qDefinition": "{<Linea={'LosChangos500->Cumbres500','Cumbres500->NvaCardones500','NvaMaitenc500->NvaCardones500','NvaPAzucar500->NvaMaitenc500','NvaPAzucar500->Polpaico500_I','NvaPAzucar500->Polpaico500_II','Ancoa500->AJahuel500','Charrua500->Ancoa500', 'EntreRios500->Ancoa500', 'EntreRios500->Charrua500'},fuente = {'PCP'},hidro,bloque,etapa,fecha_hora_version,Fecha= {\">$(=DATE(MAX({<fuente = {'PCP'},hidro=,fecha_hora_version>}Fecha)-7))\"},fecha_version= {\"$(=MAX({<fuente = {'PCP'},hidro,bloque,etapa,fecha_hora_version>}fecha_version))\"}>}",
+  "tags": []
+}

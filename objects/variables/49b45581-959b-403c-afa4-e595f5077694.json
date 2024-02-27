@@ -1,0 +1,15 @@
+{
+  "qInfo": {
+    "qId": "49b45581-959b-403c-afa4-e595f5077694",
+    "qType": "variable"
+  },
+  "qMetaDef": {},
+  "qName": "vMensajeErrorPID",
+  "qNumberPresentation": {
+    "qType": "U",
+    "qnDec": 10,
+    "qUseThou": 0
+  },
+  "qDefinition": "Seleccione solo una Fecha Hora Versión.",
+  "tags": []
+}

@@ -1,0 +1,15 @@
+{
+  "qInfo": {
+    "qId": "514b4e6c-063a-49a6-be98-4745ab649c14",
+    "qType": "variable"
+  },
+  "qMetaDef": {},
+  "qName": "vSinFiltrosPMP",
+  "qNumberPresentation": {
+    "qType": "U",
+    "qnDec": 10,
+    "qUseThou": 0
+  },
+  "qDefinition": "{<fuente={'PMP'},HidroFiltro={'MEDIA'},fecha_hora_version>}",
+  "tags": []
+}

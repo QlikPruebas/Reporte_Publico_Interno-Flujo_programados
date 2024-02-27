@@ -1,0 +1,15 @@
+{
+  "qInfo": {
+    "qId": "c57f27ee-5643-41e5-bd6a-79e902122e07",
+    "qType": "variable"
+  },
+  "qMetaDef": {},
+  "qName": "vFiltrosPMP",
+  "qNumberPresentation": {
+    "qType": "U",
+    "qnDec": 10,
+    "qUseThou": 0
+  },
+  "qDefinition": "{<Linea={'LosChangos500->Cumbres500','Cumbres500->NvaCardones500','NvaMaitenc500->NvaCardones500','NvaPAzucar500->NvaMaitenc500','NvaPAzucar500->Polpaico500_I','NvaPAzucar500->Polpaico500_II','Ancoa500->AJahuel500','Charrua500->Ancoa500', 'EntreRios500->Ancoa500', 'EntreRios500->Charrua500'},fuente = {'PMP'},HidroFiltro={'MEDIA'},fecha_hora_version, AñoMesNum= {\"<$(=MIN({<fuente = {'PMP'},HidroFiltro={'MEDIA'},fecha_hora_version>}AñoMesNum)+1)\"},fecha_version= {\"$(=MAX({<fuente = {'PMP'},HidroFiltro={'MEDIA'},fecha_hora_version>}fecha_version))\"}>}",
+  "tags": []
+}

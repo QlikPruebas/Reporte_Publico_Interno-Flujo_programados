@@ -1,0 +1,15 @@
+{
+  "qInfo": {
+    "qId": "e1bd048b-2367-45ce-bf2b-170bf2ecc5a8",
+    "qType": "variable"
+  },
+  "qMetaDef": {},
+  "qName": "vSinFiltrosPCP",
+  "qNumberPresentation": {
+    "qType": "U",
+    "qnDec": 10,
+    "qUseThou": 0
+  },
+  "qDefinition": "{<fuente={'PCP'},hidro,bloque,etapa,fecha_hora_version>}",
+  "tags": []
+}

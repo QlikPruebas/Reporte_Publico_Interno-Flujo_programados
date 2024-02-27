@@ -1,0 +1,15 @@
+{
+  "qInfo": {
+    "qId": "a4338a6a-266b-4c8a-ba06-03d91a5e9e3a",
+    "qType": "variable"
+  },
+  "qMetaDef": {},
+  "qName": "vFiltrosPLP",
+  "qNumberPresentation": {
+    "qType": "U",
+    "qnDec": 10,
+    "qUseThou": 0
+  },
+  "qDefinition": "{<Linea={'LosChangos500->Cumbres500','Cumbres500->NvaCardones500','NvaMaitenc500->NvaCardones500','NvaPAzucar500->NvaMaitenc500','NvaPAzucar500->Polpaico500_I','NvaPAzucar500->Polpaico500_II','Ancoa500->AJahuel500','Charrua500->Ancoa500', 'EntreRios500->Ancoa500', 'EntreRios500->Charrua500'},fecha_hora_version,fuente = {'PLP'},HidroFiltro={'MEDIA'},AñoMesNum= {\">=$(=MIN({<fuente = {'PLP'},HidroFiltro={'MEDIA'},fecha_hora_version>}AñoMesNum)+10)<=$(=MIN({<fuente = {'PLP'},HidroFiltro={'MEDIA'},fecha_hora_version>}AñoMesNum)+15)\"},fecha_version= {\"$(=MAX({<fuente = {'PLP'},HidroFiltro={'MEDIA'},fecha_hora_version>}fecha_version))\"}>}",
+  "tags": []
+}

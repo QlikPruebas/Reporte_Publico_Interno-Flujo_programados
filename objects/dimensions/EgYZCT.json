@@ -1,0 +1,25 @@
+{
+  "qInfo": {
+    "qId": "EgYZCT",
+    "qType": "dimension"
+  },
+  "qDim": {
+    "qGrouping": "N",
+    "qFieldDefs": [
+      "etapa"
+    ],
+    "qFieldLabels": [
+      "Etapa"
+    ],
+    "qLabelExpression": "='Etapa'",
+    "title": "Etapa",
+    "coloring": {
+      "changeHash": "0.5659347759087618"
+    }
+  },
+  "qMetaDef": {
+    "title": "Etapa",
+    "description": "",
+    "tags": []
+  }
+}

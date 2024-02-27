@@ -1,0 +1,24 @@
+{
+  "qInfo": {
+    "qId": "EDmBp",
+    "qType": "dimension"
+  },
+  "qDim": {
+    "qGrouping": "N",
+    "qFieldDefs": [
+      "intervalo"
+    ],
+    "qFieldLabels": [
+      "Intervalo"
+    ],
+    "title": "Intervalo",
+    "coloring": {
+      "changeHash": "0.5363878371178068"
+    }
+  },
+  "qMetaDef": {
+    "title": "Intervalo",
+    "description": "",
+    "tags": []
+  }
+}

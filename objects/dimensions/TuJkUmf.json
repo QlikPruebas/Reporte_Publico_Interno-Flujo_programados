@@ -1,0 +1,24 @@
+{
+  "qInfo": {
+    "qId": "TuJkUmf",
+    "qType": "dimension"
+  },
+  "qDim": {
+    "qGrouping": "N",
+    "qFieldDefs": [
+      "Linea"
+    ],
+    "qFieldLabels": [
+      "Linea"
+    ],
+    "title": "Linea",
+    "coloring": {
+      "changeHash": "0.5254315331419761"
+    }
+  },
+  "qMetaDef": {
+    "title": "Linea",
+    "description": "",
+    "tags": []
+  }
+}

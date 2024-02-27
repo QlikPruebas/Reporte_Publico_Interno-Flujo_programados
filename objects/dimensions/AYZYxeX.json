@@ -1,0 +1,24 @@
+{
+  "qInfo": {
+    "qId": "AYZYxeX",
+    "qType": "dimension"
+  },
+  "qDim": {
+    "qGrouping": "N",
+    "qFieldDefs": [
+      "Dia"
+    ],
+    "qFieldLabels": [
+      "Dia"
+    ],
+    "title": "Dia",
+    "coloring": {
+      "changeHash": "0.9623684140660491"
+    }
+  },
+  "qMetaDef": {
+    "title": "Dia",
+    "description": "",
+    "tags": []
+  }
+}

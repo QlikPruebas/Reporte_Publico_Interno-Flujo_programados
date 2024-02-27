@@ -1,0 +1,15 @@
+{
+  "qInfo": {
+    "qId": "4cb4cc72-9b46-42f8-a135-4bb21e8cdfc1",
+    "qType": "variable"
+  },
+  "qMetaDef": {},
+  "qName": "vFiltrosPID",
+  "qNumberPresentation": {
+    "qType": "U",
+    "qnDec": 10,
+    "qUseThou": 0
+  },
+  "qDefinition": "{<Linea={'LosChangos500->Cumbres500','Cumbres500->NvaCardones500','NvaMaitenc500->NvaCardones500','NvaPAzucar500->NvaMaitenc500','NvaPAzucar500->Polpaico500_I','NvaPAzucar500->Polpaico500_II','Ancoa500->AJahuel500','Charrua500->Ancoa500', 'EntreRios500->Ancoa500', 'EntreRios500->Charrua500'},fuente = {'PID'},hidro,bloque,etapa,Fecha= {\">$(=DATE(MAX({<fuente = {'PID'},hidro=>}Fecha)-2))\"},fecha_version= {\"$(=MAX({<fuente = {'PID'},hidro,bloque,etapa>}fecha_version))\"}>}",
+  "tags": []
+}

@@ -1,0 +1,15 @@
+{
+  "qInfo": {
+    "qId": "423bfd2c-2f28-4a5f-bdf4-d9be529010b6",
+    "qType": "variable"
+  },
+  "qMetaDef": {},
+  "qName": "vFiltrosPLPSinLinea",
+  "qNumberPresentation": {
+    "qType": "U",
+    "qnDec": 10,
+    "qUseThou": 0
+  },
+  "qDefinition": "{<fecha_hora_version,fuente = {'PLP'},HidroFiltro={'MEDIA'},AñoMesNum= {\">=$(=MIN({<fuente = {'PLP'},HidroFiltro={'MEDIA'},fecha_hora_version>}AñoMesNum)+10)<=$(=MIN({<fuente = {'PLP'},HidroFiltro={'MEDIA'},fecha_hora_version>}AñoMesNum)+15)\"},fecha_version= {\"$(=MAX({<fuente = {'PLP'},HidroFiltro={'MEDIA'},fecha_hora_version>}fecha_version))\"}>}",
+  "tags": []
+}
